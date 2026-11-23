@@ -1,5 +1,6 @@
-# Pet project
+# Quadsooolve
 
-Record what you want to build and how you will know it works. Use the project brief in Loom to choose the first small task.
+Run `python3 solver.py` and enter the coefficients of `a*x^2 + b*x + c = 0` when prompted.
+The program checks whether the equation is quadratic; it does not compute roots yet.
 
-Update the `test` recipe in `Justfile` to run your project tests. The initial `just test` fails until you add a test command. GitHub Actions runs the same recipe on pushes and pull requests.
+Run `just test` to run the CLI tests.
